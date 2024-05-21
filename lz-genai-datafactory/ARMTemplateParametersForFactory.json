@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "lz-genai-datafactory"
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"Dataverse1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://lzblobgenaipoc.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "lzsqlsrvdev01.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "Maan_Transformed_Data"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"Dataverse1_properties_typeProperties_username": {
+			"value": "ishan.sharma@lagozon.com"
+		}
+	}
+}
