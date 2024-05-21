@@ -1,0 +1,16 @@
+{
+	"name": "Ds_Maan_transformed_sql_db_dev",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "sc_project_transformed"
+		}
+	}
+}
