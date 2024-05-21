@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"folderPath": "output",
 				"fileSystem": "maan-container-dataverse-to-blob-rawdata"
 			},
 			"columnDelimiter": ",",
