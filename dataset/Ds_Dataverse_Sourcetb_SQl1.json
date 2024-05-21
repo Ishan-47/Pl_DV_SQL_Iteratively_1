@@ -1,0 +1,16 @@
+{
+	"name": "Ds_Dataverse_Sourcetb_SQl1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "source_table_dataverse"
+		}
+	}
+}
