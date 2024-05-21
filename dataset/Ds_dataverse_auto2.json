@@ -1,0 +1,23 @@
+{
+	"name": "Ds_dataverse_auto2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Dataverse1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "CommonDataServiceForAppsEntity",
+		"schema": [],
+		"typeProperties": {
+			"entityName": {
+				"value": "@dataset().name",
+				"type": "Expression"
+			}
+		}
+	}
+}
